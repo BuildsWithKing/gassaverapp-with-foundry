@@ -7,10 +7,10 @@
 
 pragma solidity ^0.8.18;
 
-/// @notice Imports Script from forge standard library. 
+/// @notice Imports Script from forge standard library.
 import {Script} from "forge-std/Script.sol";
 
-/// @notice Imports OptimizedGasSaver file. 
+/// @notice Imports OptimizedGasSaver file.
 import {OptimizedGasSaver} from "../src/OptimizedGasSaver.sol";
 
 contract DeployOptimizedGasSaver is Script {
