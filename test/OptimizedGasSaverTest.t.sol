@@ -23,7 +23,7 @@ contract OptimizedGasSaverTest is Test {
     address user1 = address(0x1);
 
     /// @notice user two's address.
-    address user2 = address(0x1);
+    address user2 = address(0x2);
 
     /// @notice This is the setUp function that runs before each test.
     function setUp() public {
